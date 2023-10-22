@@ -11,3 +11,17 @@ npm install
 ./run_locally.sh
 docker compose up db -d
 ```
+
+After starting up service you can access it by address http://localhost:8081
+
+Example requests:
+
+`GET /api/v1/user-events?userId=1&limit=5&offset=0`
+___
+`POST /api/v1/user-events`
+```json
+{
+    "userId": 1,
+    "event": "create"
+}
+```
