@@ -1,0 +1,4 @@
+node_modules
+db_init
+dist
+run_locally.sh
