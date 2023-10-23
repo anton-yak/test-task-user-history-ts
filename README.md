@@ -22,6 +22,18 @@ ___
 ```json
 {
     "userId": 1,
-    "event": "create"
+    "event": "create",
+    "changedFields": [
+        {
+            "fieldName": "email",
+            "oldValue": "test@example.com",
+            "newValue": "newtest@example.com"
+        },
+        {
+            "fieldName": "password",
+            "oldValue": "12345",
+            "newValue": "qwerty"
+        }
+    ]
 }
 ```
